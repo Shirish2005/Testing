@@ -1,0 +1,61 @@
+.DS_Store
+node_modules
+node
+dist
+coverage
+target
+*.flattened-pom.xml
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+paylogs/**
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+.project
+.settings
+.classpath
+.factorypath
+*.iml
+
+# package-lock
+package-lock.json
+
+# yalc files
+**/.yalc/**
+**/yalc.lock
+
+# temp files
+**/dependency-reduced-pom.xml
+sorted.pom.xml
+*.odt#
+~*.odt
+
+# node_modules
+**/node_modules/**
+
+paylogs/**
+*.odt#
+
+# broker files
+**/broker/client/**
+
+# waypay files
+**/wayfair-terminal/elera-client/**
+
+#whitesource files
+**/whitesource/**
+**/wss-unified-agent.jar
